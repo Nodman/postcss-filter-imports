@@ -20,5 +20,5 @@ For example with ```/\/dev/``` regexp
 ## Usage
 
 ```js
-postcss([ require('postcss-filter-imports') ])
+postcss([ require('postcss-filter-imports')({pattern: regexp}) ])
 ```
