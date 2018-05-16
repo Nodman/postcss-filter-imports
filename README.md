@@ -1,12 +1,8 @@
-# PostCSS Filter Imports [![Build Status][ci-img]][ci]
+# PostCSS Filter Imports
 
 [PostCSS] plugin to remove imports that matches regexp.
 
-[//]: #[PostCSS]: https://github.com/postcss/postcss
-[//]: #[ci-img]:  https://travis-ci.org/Nodman/postcss-filter-imports.svg
-[//]: #[ci]:      https://travis-ci.org/Nodman/postcss-filter-imports
-
-For example with /\/dev/ regexp
+For example with ```/\/dev/``` regexp
 
 ```css
 .foo {
@@ -26,5 +22,3 @@ For example with /\/dev/ regexp
 ```js
 postcss([ require('postcss-filter-imports') ])
 ```
-
-See [PostCSS] docs for examples for your environment.
